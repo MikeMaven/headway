@@ -29,8 +29,8 @@ const SignInContainer = props => {
                   label={"Password"}
                   type={"password"}
                 />
-                <button onClick={signIn} class="button tiny" id="sign-in-button">SIGN IN</button>
-                <button class="button tiny" id="create-account-button">CREATE AN ACCOUNT</button>
+                <button onClick={signIn} className="button tiny" id="sign-in-button">SIGN IN</button>
+                <button className="button tiny" id="create-account-button">CREATE AN ACCOUNT</button>
               </FormControl>
             </div>
           </div>
