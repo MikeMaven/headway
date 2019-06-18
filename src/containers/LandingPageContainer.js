@@ -1,6 +1,7 @@
 import React from 'react';
 
 import TaskCard from '../components/TaskCard'
+import SearchBar from '../components/SearchBar'
 import * as constants from '../constants.js'
 
 class LandingPageContainer extends React.Component {
@@ -70,9 +71,16 @@ class LandingPageContainer extends React.Component {
 
     return(
       <div>
-        {allTasks}
-        {todayTasks}
-        {tomorrowTasks}
+        <p id="sign-in-top-text">Tasks - Filled</p>
+        <div id="application-container">
+          <div id="app-left-menu">
+            <h3>Tasks</h3>
+          </div>
+          <div id="app-task-lists-container">
+            <SearchBar />
+
+          </div>
+        </div>
       </div>
     )
   }
