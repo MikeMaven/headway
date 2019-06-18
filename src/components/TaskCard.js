@@ -3,7 +3,7 @@ import React from 'react'
 const TaskCard = props => {
   return(
     <div>
-      <h4>{props.name}</h4>
+      <p>{props.name}</p>
     </div>
   )
 }
