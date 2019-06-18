@@ -1,5 +1,4 @@
 # Headway Demo App
-==================================
 
 This repo is a simple front-end code demo for Headway, using React, Material-UI, and Foundation
 
