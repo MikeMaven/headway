@@ -3,6 +3,7 @@ import React from 'react';
 import TaskCard from '../components/TaskCard'
 import SearchBar from '../components/SearchBar'
 import TaskListsContainer from './TaskListsContainer'
+import AddTaskButton from '../components/AddTaskButton'
 import * as constants from '../constants.js'
 
 class LandingPageContainer extends React.Component {
@@ -38,6 +39,7 @@ class LandingPageContainer extends React.Component {
         <div id="application-container">
           <div id="app-left-menu">
             <h3>Tasks</h3>
+            <AddTaskButton />
             {allTasks}
           </div>
           <div id="app-task-lists-container">

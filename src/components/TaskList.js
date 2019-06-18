@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TaskCard from './TaskCard'
+import AddTaskButton from './AddTaskButton'
 
 const TaskList = props => {
   let tasks = props.list.map((task) => {
@@ -13,8 +14,9 @@ const TaskList = props => {
   })
 
   return(
-    <div>
-      <h4>{props.header}</h4>
+    <div id="task-list">
+      <h3 id="task-list-header">{props.header}</h3>
+      <AddTaskButton />
       {tasks}
     </div>
   )

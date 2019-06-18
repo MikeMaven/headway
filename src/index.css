@@ -83,3 +83,71 @@ label {
   display: flex;
   flex-direction: column;
 }
+
+#search-bar {
+  width: 100%;
+  height: 40px;
+  background-color: #0B2184;
+  color: white;
+}
+
+#task-lists-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#task-list {
+  margin: 10px;
+  min-width: 400px;
+}
+
+#task-card {
+  padding: 3px;
+  margin-bottom: 2px;
+  width: 100%;
+  border-bottom: 1px solid #F6F5F5;
+  background-color: #FFFFFF;
+  box-shadow: 3px, 4px, #EBEBEB;
+}
+
+#add-task-button {
+  margin-bottom: 2px;
+  width: 100%;
+  height: 60px;
+  font-size: 20%;
+  background-color: #F6F8FE;
+  color: #876AF8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#task-list-header {
+  margin-bottom: 2px;
+  padding: 5px;
+  height: 100px;
+  background-color: #FFFFFF;
+  color: #5D62B1;
+}
+
+#task-card {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#task-card-app-designation {
+  font-size: 40%;
+  color: #ADADAD;
+}
+
+#task-card-info {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
