@@ -10,6 +10,7 @@ label {
 
 #sign-in-top-text {
   font-size: 40%;
+  color: #B0B0B0;
 }
 
 #sign-in-container {
@@ -85,13 +86,15 @@ label {
 }
 
 #search-bar {
+  padding: 5px;
   width: 100%;
   height: 50px;
   background-color: #0B2184;
   color: white;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #task-lists-container {
@@ -113,6 +116,21 @@ label {
   border-bottom: 1px solid #F6F5F5;
   background-color: #FFFFFF;
   box-shadow: 3px, 4px, #EBEBEB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#task-card-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#task-card-right {
+  font-size: 50%;
+  color: #BCBABB;
 }
 
 #add-task-button {
@@ -161,6 +179,7 @@ label {
 }
 
 #search-field {
+  margin-top: 1px;
   width: 400px;
   display: flex;
   flex-direction: row;
@@ -182,4 +201,25 @@ label {
   width: 90%;
   background-color: #7856F8;
   border: none;
+}
+
+#days-left {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 50%;
+  color: #C1B3FB;
+}
+
+#upgrade-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 70%;
+  margin-left: 5px;
+}
+
+#search-bar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
