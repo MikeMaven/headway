@@ -136,6 +136,11 @@ label {
   color: #5D62B1;
 }
 
+#task-list-sub-header {
+  font-size: 40%;
+  color: gray;
+}
+
 #task-card {
   height: 50px;
   display: flex;

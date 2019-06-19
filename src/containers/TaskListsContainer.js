@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import TaskList from '../components/TaskList'
 import * as constants from '../constants.js'
@@ -36,10 +37,12 @@ class TaskListsContainer extends React.Component {
         <TaskList
           header={"Today"}
           list={this.state.today}
+          date={moment(Date.now()).format('MMMM Do YYYY')}
         />
         <TaskList
           header={"Tomorrow"}
           list={this.state.tomorrow}
+          date={moment(new Date()).add(1,'days').format('MMMM Do YYYY')}
         />
       </div>
     )

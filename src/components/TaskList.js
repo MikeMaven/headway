@@ -15,7 +15,10 @@ const TaskList = props => {
 
   return(
     <div id="task-list">
-      <h3 id="task-list-header">{props.header}</h3>
+      <h3 id="task-list-header">
+        {props.header}
+        <div id="task-list-sub-header">{props.date}</div>
+      </h3>
       <AddTaskButton />
       {tasks}
     </div>
